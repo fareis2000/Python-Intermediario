@@ -40,3 +40,5 @@
 
 # print(platform)
 # exit()
+
+print('Este modulo se chama', __name__)
