@@ -13,8 +13,12 @@ produtos = [
 import copy
 
 for item in produtos:
-    item['preco'] = item['preco'] * 1.10
+    print(f'{item["nome"]} custa R$ {item["preco"]:.2f}')
+print("-" * 20)
+print('Produtos com aumento de 10%:')
 novos_produtos = copy.deepcopy(produtos)
+for item in novos_produtos:
+    item['preco'] = item['preco'] * 1.10
 formatar = '{nome} custa R$ {preco:.2f}'
 for produto in novos_produtos:
    print(formatar.format(**produto))
