@@ -1,0 +1,21 @@
+{
+  "nome": "Fabio",
+  "idade": 30,
+  "endereco": {
+    "rua": "Rua ABC",
+    "numero": 123,
+    "cidade": "São Paulo"
+  },
+  "telefones": [
+    "1234-5678",
+    "9876-5432"
+  ],
+  "altura": 1.9,
+  "dev": true,
+  "nada": null,
+  "numeros preferidos": [
+    7,
+    13,
+    42
+  ]
+}
